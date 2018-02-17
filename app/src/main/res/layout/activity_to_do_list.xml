@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ilenwabordavid.a2do.ToDoList">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:divider="#FFF65AB0"
+        android:dividerHeight="1.5dp"
+        android:background="#ffffff"
+        >
+    </ListView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFF65AB0"
+        android:layout_margin="32dp"
+        android:onClick="enterToDO"
+        android:src="@drawable/ic_add_black_36dp"
+        >
+        </android.support.design.widget.FloatingActionButton>
+
+
+</RelativeLayout>
